@@ -38,6 +38,7 @@ H5P.ThreeImage = (function () {
       resetCamera: 'Reset Camera',
       submitDialog: 'Submit Dialog',
       closeDialog: 'Close Dialog',
+      backButton: 'Back',
       expandButtonAriaLabel: 'Expand the visual label',
       backgroundLoading: 'Loading background image...',
       noContent: 'No content',

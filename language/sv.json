@@ -202,6 +202,10 @@
           "default": "Expandera visuell etikett"
         },
         {
+          "label": "Aria label for the back button",
+          "default": "Back"
+        },
+        {
           "label": "Etikett som visas när bakgrundsbild laddas i en 360-scen",
           "default": "Laddar bakgrundsbild ..."
         },

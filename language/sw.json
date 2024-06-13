@@ -202,6 +202,10 @@
           "default": "Panua lebo ya kuona"
         },
         {
+          "label": "Aria label for the back button",
+          "default": "Back"
+        },
+        {
           "label": "Lebo ya wakati picha ya mandharinyuma inapakia katika onyesho la 360",
           "default": "Inapakia picha ya mandharinyuma..."
         },

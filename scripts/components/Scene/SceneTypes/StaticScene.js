@@ -471,7 +471,7 @@ export default class StaticScene extends React.Component {
         {
           isShowingBackButton &&
           <NavigationButton
-            title='Back'
+            title={ this.context.l10n.backButton }
             icon={Icons.GO_BACK}
             isHiddenBehindOverlay={this.props.isHiddenBehindOverlay}
             clickHandler={this.goToPreviousScene.bind(this)}

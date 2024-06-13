@@ -202,6 +202,10 @@
           "default": "Expand the visual label"
         },
         {
+          "label": "Aria label for the back button",
+          "default": "Back"
+        },
+        {
           "label": "Label for when background image is loading in 360 scene",
           "default": "Loading background image..."
         },

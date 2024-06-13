@@ -202,6 +202,10 @@
           "default": "Rozbalit vizuální popisek"
         },
         {
+          "label": "Aria label for the back button",
+          "default": "Back"
+        },
+        {
           "label": "Popisek pro načítání obrázku na pozadí ve scéně 360",
           "default": "Načítání obrázku na pozadí ...."
         },

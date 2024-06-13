@@ -202,6 +202,10 @@
           "default": "Die Beschriftung erweitern"
         },
         {
+          "label": "Aria label for the back button",
+          "default": "Back"
+        },
+        {
           "label": "Beschriftung wenn der Hintergrund der 360°-Szene lädt",
           "default": "Lade Hintergrundbild..."
         },

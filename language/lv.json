@@ -202,6 +202,10 @@
           "default": "Vizuālā elementa paplašināšanas etiķete"
         },
         {
+          "label": "Aria label for the back button",
+          "default": "Back"
+        },
+        {
           "label": "360 grādu ainas ielādes fona attēla etiķete",
           "default": "Notiek fona attēla ielāde..."
         },

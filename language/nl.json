@@ -202,6 +202,10 @@
           "default": "Vergroot het visuele label"
         },
         {
+          "label": "Aria label for the back button",
+          "default": "Back"
+        },
+        {
           "label": "Het label voor wanneer de achtergrondafbeelding wordt geladen in de 360 scène",
           "default": "Achtergrondafbeelding aan het laden..."
         },

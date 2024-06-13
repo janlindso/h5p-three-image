@@ -202,6 +202,10 @@
           "default": "Zabaldu etiketa bisuala"
         },
         {
+          "label": "Aria label for the back button",
+          "default": "Back"
+        },
+        {
           "label": "Atzeko planoko irudia 360 eszenan zabaltzen ari denerako etiketa",
           "default": "Atzeko planoko irudia kargatzen..."
         },

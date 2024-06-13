@@ -202,6 +202,10 @@
           "default": "Expandir o rótulo visual"
         },
         {
+          "label": "Aria label for the back button",
+          "default": "Back"
+        },
+        {
           "label": "Etiqueta para quando a imagem de fundo é carregada em cena 360",
           "default": "Carregando imagem de fundo..."
         },

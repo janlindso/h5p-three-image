@@ -202,6 +202,10 @@
           "default": "Expandir la etiqueta visual"
         },
         {
+          "label": "Aria label for the back button",
+          "default": "Back"
+        },
+        {
           "label": "Etiqueta para cuando la imagen del fondo está cargando en escena 360",
           "default": "Cargando imagen del fondo..."
         },

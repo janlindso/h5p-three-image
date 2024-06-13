@@ -352,6 +352,12 @@
         "default": "Close Dialog"
       },
       {
+        "name": "backButton",
+        "type": "text",
+        "label": "Label for the back button",
+        "default": "Back"
+      },
+      {
         "name": "expandButtonAriaLabel",
         "type": "text",
         "label": "Aria label for the expand label button",

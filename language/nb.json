@@ -202,6 +202,10 @@
           "default": "Expand the visual label"
         },
         {
+          "label": "Aria label for tilbake-knapp",
+          "default": "Tilbake"
+        },
+        {
           "label": "Label for when background image is loading in 360 scene",
           "default": "Laster bakgrunnsbilde..."
         },

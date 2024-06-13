@@ -202,6 +202,10 @@
           "default": "비주얼 라벨 확장"
         },
         {
+          "label": "Aria label for the back button",
+          "default": "Back"
+        },
+        {
           "label": "배경 영상이 360 장면에서 로드되는 경우 라벨",
           "default": "배경 이미지 로드 중..."
         },
