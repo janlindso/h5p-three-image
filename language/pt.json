@@ -5,7 +5,7 @@
       "fields": [
         {
           "label": "Cenas",
-          "entity": "Cenas",
+          "entity": "Cena",
           "field": {
             "fields": [
               {
@@ -33,22 +33,22 @@
               },
               {
                 "label": "Descrição da cena",
-                "description": "O texto que pode descrever a cena para o usuário final"
+                "description": "O texto que pode descrever a cena para o utilizador final"
               },
               {},
               {
                 "field": {
                   "fields": [
                     {
-                      "label": "Rótulo",
-                      "description": "Se for deixado em branco, nenhum rótulo será exibido e tentaremos usar o campo de título para leitores de tela"
+                      "label": "Etiqueta",
+                      "description": "Se for deixado em branco, nenhum etiqueta será exibido e tentaremos usar o campo de título para leitores de ecrã"
                     },
                     {
-                      "label": "Configurações de rótulo",
+                      "label": "Definições de Etiqueta",
                       "fields": [
                         {
-                          "label": "Posição do rótulo",
-                          "description": "Escolha onde o rótulo deve aparecer",
+                          "label": "Posição do etiqueta",
+                          "description": "Escolha onde o etiqueta deve aparecer",
                           "options": [
                             {
                               "label": "Usar configuração comportamental"
@@ -68,8 +68,8 @@
                           ]
                         },
                         {
-                          "label": "Mostrar rótulo",
-                          "description": "Se escondido - as etiquetas só aparecerão com o mouse",
+                          "label": "Mostrar etiqueta",
+                          "description": "Se estiverem escondido - as etiquetas só aparecerão com o mouse",
                           "options": [
                             {
                               "label": "Usar configuração comportamental"
@@ -102,7 +102,7 @@
                 ]
               },
               {
-                "label": "Faixa de áudio",
+                "label": "Faixa de Áudio",
                 "description": "Adicione uma faixa de áudio específica para esta cena."
               }
             ]
@@ -115,16 +115,16 @@
       ]
     },
     {
-      "label": "Configurações comportamentais",
-      "description": "Estas opções deixarão você controlar como o mundo se comporta.",
+      "label": "Configurações Comportamentais",
+      "description": "Estas opções permitem-lhe controlar a forma como o mundo se comporta.",
       "fields": [
         {
           "label": "Áudio Global",
-          "description": "Adiciona uma faixa de áudio que é disponível para todas as cenas, por padrão."
+          "description": "Adicione uma faixa de áudio que esta disponível para todas as cenas, por padrão."
         },
         {
           "label": "Qualidade de renderização de cenas",
-          "description": "Escolha o segmento de altura e largura para renderizar a cena. Isto afetará diretamente o nível de qualidade da cena. Tente aumentar a qualidade se em uma cena aparecem \"quadradinhos\" ou \"ondas\" . Perceba que quanto maior a qualidade maior o tempo para renderizar e carregar.",
+          "description": "Escolha o segmento de altura e largura para renderizar a cena. Isto afetará diretamente o nível de qualidade da cena. .Isto afeta diretamente o nível de qualidade da cena, tente aumentar a qualidade se uma cena parecer \"em bloco\" ou \"ondas\" for vista dentro das cenas. Perceba que quanto maior a qualidade maior o tempo para renderizar e carregar.",
           "options": [
             {
               "label": "Alta Qualidade (128x128)"
@@ -138,11 +138,11 @@
           ]
         },
         {
-          "label": "Configurações de rótulo",
+          "label": "Definições de etiqueta",
           "fields": [
             {
-              "label": "Posição do rótulo",
-              "description": "Posição padrão do rótulo. A posição pode ser substituída por interação",
+              "label": "Posição do etiqueta",
+              "description": "Posição padrão do etiqueta. A posição pode ser anulada por interação",
               "options": [
                 {
                   "label": "Alinhado à direita"
@@ -159,8 +159,8 @@
               ]
             },
             {
-              "label": "Exibir rótulos",
-              "description": "Se desmarcado - os rótulos serão exibidos apenas ao passar o mouse"
+              "label": "Exibir etiquetas",
+              "description": "Se é desmarcado - os etiquetas serão exibidos apenas ao passar o mouse"
             }
           ]
         }
@@ -170,44 +170,44 @@
       "label": "Localizar",
       "fields": [
         {
-          "label": "Rótulo Aria para tipo de conteúdo",
-          "default": "Turnê Virtual"
+          "label": "Etiqueta Aria para tipo de conteúdo",
+          "default": "Passeio Virtual"
         },
         {
-          "label": "Rótulo para reproduzir áudio",
+          "label": "Etiqueta para reproduzir áudio",
           "default": "Reproduzir faixa de áudio"
         },
         {
-          "label": "Rótulo para pausar o áudio",
+          "label": "Etiqueta para pausar o áudio",
           "default": "Pausar faixa de áudio"
         },
         {
-          "label": "Diálogo de título para cena",
+          "label": "Titulo do diálogo para cena",
           "default": "Descrição da cena"
         },
         {
-          "label": "Rótulo do botão para redefinir a câmera",
+          "label": "Etiqueta do botão para redefinir a câmera",
           "default": "Redefinir câmera"
         },
         {
-          "label": "Rótulo para o botão de diálogo de envio",
+          "label": "Etiqueta para o botão de diálogo de envio",
           "default": "Caixa de diálogo Enviar"
         },
         {
-          "label": "Rótulo para o botão de fechar a caixa de diálogo",
+          "label": "Etiqueta para o botão de fechar a caixa de diálogo",
           "default": "Fechar caixa de diálogo"
         },
         {
-          "label": "Rótulo Aria para o botão expandir rótulo",
-          "default": "Expandir o rótulo visual"
+          "label": "Etiqueta Aria para o botão expandir etiqueta",
+          "default": "Expandir o etiqueta visual"
         },
         {
           "label": "Etiqueta para quando a imagem de fundo é carregada em cena 360",
           "default": "Carregando imagem de fundo..."
         },
         {
-          "label": "Rótulo para quando não houver conteúdo",
-          "default": "Sem conteúdo"
+          "label": "Etiqueta para quando não houver guia do autor do conteúdo",
+          "default": "Sem guia do autor do conteúdo"
         }
       ]
     }
